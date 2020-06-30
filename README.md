@@ -18,7 +18,7 @@
     - xxx.typingSpd是打字的速度
 
 4. 使用特殊效果的方法
-    - 基本格式: 在typewriter_setText传入的字符串中，使用<key:arg>来使用特殊效果
+    - 基本格式: 在typewriter_setText传入的字符串中，使用\<key:arg>来使用特殊效果
     - 设置颜色: \<color:颜色值> 其中颜色值为16进制 (比如FF0000，红:FF 绿:00 蓝: 00，最终是红色)
     - 设置透明度: \<alpha:透明度> 其中透明度为0~1的小数，1就是不透明，0就是透明
     - 文字抖动: \<random:抖动程度> 其中抖动程度决定了文字在各方向抖动的最大值（我是用irandom_range(-randomNum, randomNum)来做这个的）
