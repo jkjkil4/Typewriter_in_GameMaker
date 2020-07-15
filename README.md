@@ -32,5 +32,9 @@
     - 在objTypewriter的Draw事件的switch(keyString)中加入对应的case "xxxxx"，然后在draw的地方作出相应的更改
     - 在objTypewriter的Draw事件的尾部，有一个switch(ssKeyString)，是用来做单次触发的，其中有个"SingleShot"的例子，就是弹出一个提示框
 
-5. 其他
+6. 其他
     - 带有private_开头的变量最好不要直接操作
+
+7. 对于GM8版本的额外的说明
+    - 使用了FoxWriting插件，如果你没有这个插件，你可以把fw_开头的函数的"fw_"删掉，但是就不能绘制非ASCII字符了
+    - 必须给打字机设置一个字体才能绘制出文字(使用"xxx.font = 你载入的字体;"来设置)
