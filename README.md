@@ -31,7 +31,7 @@
 	- Object:
 		- **objTest**   为打字机的使用例子，可有可无
 		- **objTypewriter** 是打字机
-	- script:
+	- Script:
 		- **typewriter_setText(typewriterId, text)** 是用来设置打字机文本的
 		- **typewriter_delText(typewriterId)**	是用来清空打字机文本的
 		- ***getNumFromHex(hexChar)***  *是用来从十六进制格式的字符串转换到数字的（你用不到这个*
@@ -57,7 +57,7 @@
 	- Object:
 		- **objTest**   为打字机的使用例子，可有可无
 		- **objTypewriter** 是打字机
-	- script:
+	- Script:
 		- **typewriter_setText(typewriterId, text)** 是用来设置打字机文本的
 		- **typewriter_delText(typewriterId)**	是用来清空打字机文本的
 		- ***getNumFromHex(hexChar)***  *是用来从十六进制格式的字符串转换到数字的（你用不到这个*
@@ -80,7 +80,7 @@
 	- Object:
 		- **objTest**   为打字机的使用例子，可有可无
 		- **objTypewriter** 是打字机
-	- script:
+	- Script:
 	    - HexTranslater
 			- ***getNumFromHex(hexChar)***  *是用来从十六进制格式的字符串转换到数字的（你用不到这个*
 			- ***getColorFromHexString(hexString)***  *是用来从十六进制得到颜色的（你用不到这个*
