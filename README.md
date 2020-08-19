@@ -5,7 +5,7 @@
  <summary>通用介绍</summary>
  
  1. 设置文字特殊效果的方法
-	- 基本格式: 在设置打字机的文字时传入的字符串中，使用类似于**\<key:arg>**的格式来使用特殊效果，以下列出已经提供的效果
+	- 基本格式: 在设置打字机的文字时传入的字符串中，使用类似于 **\<key:arg>** 的格式来使用特殊效果，以下列出已经提供的效果
     - 设置颜色: **\<color:颜色值>** 其中颜色值为16进制 (比如FF0000，红:FF 绿:00 蓝: 00，最终是红色)
     - 设置透明度: **\<alpha:透明度>** 其中透明度为0~1的小数，1就是不透明，0就是透明
     - 文字抖动: **\<random:抖动程度>** 其中抖动程度决定了文字在各方向抖动的最大值
@@ -17,8 +17,8 @@
 	- 绘制sprite: **\<sprite:sprite名称>** (仅在GMS2.3版本有该效果)
 	
 2. 自定义特殊效果的方法
-    - 在objTypewriter的Draw事件的**switch(keyString)**中加入对应的**case "xxxxx"**，然后在draw的地方作出相应的更改
-    - 在objTypewriter的Draw事件的尾部，有一个**switch(ssKeyString)**，是用来做单次触发的，其中有个"SingleShot"的例子，就是弹出一个提示框
+    - 在objTypewriter的Draw事件的 **switch(keyString)** 中加入对应的 **case "xxxxx"** ，然后在draw的地方作出相应的更改
+    - 在objTypewriter的Draw事件的尾部，有一个 **switch(ssKeyString)** ，是用来做单次触发的，其中有个"SingleShot"的例子，就是弹出一个提示框
 	
 3. 其他
     - 带有private_开头的变量最好不要直接操作
