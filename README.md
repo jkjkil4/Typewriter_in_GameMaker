@@ -1,12 +1,6 @@
 # Typewriter_in_GameMaker
  Typewriter 打字机
 
-## 各个版本的介绍
-
-[GameMakerStudio2.2及更旧版本](#GameMakerStudio2.2及更旧版本)
-
-[GameMakerStudio2.3版本](#GameMakerStudio2.3版本)
-
 ## GameMakerStudio2.2及更旧版本
 
 1. 与打字机有关的东西
