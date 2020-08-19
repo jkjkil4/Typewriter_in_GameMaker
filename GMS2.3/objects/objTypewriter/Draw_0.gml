@@ -141,6 +141,9 @@ if(private_eleList != -1 && private_effList != -1) {
 	
 	//单次触发
 	if(hasEffect) {
+		if(eleSize <= typeLen) {
+			effectIndex = effSize;
+		}
 		if(effectIndex > private_effectIndex) {
 			for(var i = private_effectIndex; i < min(effSize, effectIndex); i++) {
 				var eff = private_effList[| i];
