@@ -1,6 +1,14 @@
 # Typewriter_in_GameMaker
  Typewriter 打字机
 
+## 各个版本的介绍
+
+[GameMakerStudio2.2及更旧版本](#GameMakerStudio2.2及更旧版本)
+
+[GameMakerStudio2.3版本](#GameMakerStudio2.3版本)
+
+## GameMakerStudio2.2及更旧版本
+
 1. 与打字机有关的东西
     - object: objTypewriter是打字机
     - script: typewriter_setText(typewriterID, text)是用来设置打字机文本的
@@ -39,3 +47,7 @@
     - 使用了FoxWriting插件，如果你没有这个插件，你可以把fw_开头的函数的"fw_"删掉，但是就不能绘制非ASCII字符了
     - 必须给打字机设置一个字体才能绘制出文字(使用"xxx.font = 你载入的字体;"来设置)
     - 换行要用\<n> (在GMS2中是\n)
+    
+## GameMakerStudio2.3版本
+
+暂无
