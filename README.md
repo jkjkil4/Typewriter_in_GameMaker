@@ -1,6 +1,8 @@
 # Typewriter_in_GameMaker
  Typewriter 打字机
  
+ 目前最为完善的是GMS2.3版本
+ 
  <details>
  <summary>通用介绍</summary>
  
